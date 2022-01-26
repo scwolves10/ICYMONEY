@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ICYMONEY.sol": "IDEXFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ICYMONEY.sol": {
+			"keccak256": "0xc9265aa764c4a81f75bc68f7aa73ca520b033e1b1ecf1b61ec42bcd670531700",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55552c1af68da395695746b4070a6ad50a1974702d9f67c34a5222a9dcbac5de",
+				"dweb:/ipfs/QmcY4b3gkAY8npxBjLvoUyQjLnp21fUHNQ8QC9EvDuTdWP"
+			]
+		}
+	},
+	"version": 1
+}
